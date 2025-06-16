@@ -1,0 +1,346 @@
+{
+  "users": [
+    {
+      "id": 101,
+      "email": "john.doe@example.com",
+      "password": "$2a$10$9xfGOu3UbVfXttMu065mEOu3XTH./f7Hp.gcAVQqiYnoXa3/G.toe",
+      "name": "John Doe",
+      "avatar": "https://cdn.pixabay.com/collection/thumbnail/2025/06/05/monk-1791113_1280.jpg",
+      "createdAt": "2025-06-13T18:13:57.127Z"
+    },
+    {
+      "id": 102,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "password": "$2a$10$9xfGOu3UbVfXttMu065mEOu3XTH./f7Hp.gcAVQqiYnoXa3/G.toe",
+      "avatar": "https://cdn.pixabay.com/photo/2025/01/30/13/04/woman-9370170_960_720.jpg",
+      "createdAt": "2025-05-31T11:15:00Z"
+    },
+    {
+      "id": 103,
+      "name": "Alex Lee",
+      "email": "alex.lee@example.com",
+      "password": "$2a$10$9xfGOu3UbVfXttMu065mEOu3XTH./f7Hp.gcAVQqiYnoXa3/G.toe",
+      "avatar": "https://cdn.pixabay.com/collection/thumbnail/2025/06/05/island-2722471_1280.jpg",
+      "createdAt": "2025-06-01T14:20:00Z"
+    }
+  ],
+  "followings": [
+    { "id": 1, "userId": 101, "followingId": 102 },
+    { "id": 2, "userId": 101, "followingId": 103 },
+    { "id": 3, "userId": 102, "followingId": 101 },
+    { "id": 4, "userId": 102, "followingId": 103 },
+    { "id": 5, "userId": 103, "followingId": 101 },
+    { "id": 6, "userId": 103, "followingId": 102 }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Post",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!This is the body of the first post.",
+      "userId": 101,
+      "userName": "John Doe",
+      "createdAt": "2025-06-01T10:00:00Z",
+      "updatedAt": "2025-06-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Another interesting post content.",
+      "userId": 102,
+      "userName": "Jane Smith",
+      "createdAt": "2025-06-02T12:30:00Z",
+      "updatedAt": "2025-06-02T12:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Vacation Memories",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Sharing some vacation photos!",
+      "userId": 103,
+      "userName": "Alex Lee",
+      "createdAt": "2025-06-03T15:45:00Z",
+      "updatedAt": "2025-06-03T15:45:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Coffee Break",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Enjoying a nice cup of coffee while coding.",
+      "userId": 102,
+      "userName": "Jane Smith",
+      "createdAt": "2025-06-04T11:00:00Z",
+      "updatedAt": "2025-06-04T11:00:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Hiking Adventure",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Went hiking this weekend. The view was amazing!",
+      "userId": 103,
+      "userName": "Alex Lee",
+      "createdAt": "2025-06-05T08:30:00Z",
+      "updatedAt": "2025-06-05T08:30:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Book Recommendation",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Just finished reading a great book on JavaScript.",
+      "userId": 101,
+      "userName": "John Doe",
+      "createdAt": "2025-06-05T14:20:00Z",
+      "updatedAt": "2025-06-05T14:20:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Delicious Lunch",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Had a delicious lunch at a new restaurant.",
+      "userId": 102,
+      "userName": "Jane Smith",
+      "createdAt": "2025-06-06T12:00:00Z",
+      "updatedAt": "2025-06-06T12:00:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Sunset Views",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda rem laborum eius inventore obcaecati ratione voluptates numquam maiores ducimus, beatae explicabo. Doloremque alias autem numquam nostrum obcaecati, natus porro quos!Captured a beautiful sunset today.",
+      "userId": 103,
+      "userName": "Alex Lee",
+      "createdAt": "2025-06-06T19:45:00Z",
+      "updatedAt": "2025-06-06T19:45:00Z"
+    },
+    {
+      "body": "asdasda",
+      "userId": 101,
+      "userName": "John Doe",
+      "createdAt": "2025-06-15T23:07:42.335Z",
+      "updatedAt": "2025-06-15T23:07:42.335Z",
+      "id": 10
+    },
+    {
+      "body": "addsasd",
+      "userId": 101,
+      "userName": "John Doe",
+      "createdAt": "2025-06-15T23:08:43.908Z",
+      "updatedAt": "2025-06-15T23:08:43.908Z",
+      "id": 11
+    }
+  ],
+  "images": [
+    {
+      "id": 1,
+      "type": "posts",
+      "cardId": 1,
+      "url": "https://cdn.pixabay.com/photo/2025/04/01/11/26/blue-tit-9506658_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 101
+    },
+    {
+      "id": 3,
+      "type": "posts",
+      "cardId": 2,
+      "url": "https://cdn.pixabay.com/photo/2023/04/07/23/21/bridge-7907835_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 102
+    },
+    {
+      "id": 4,
+      "type": "posts",
+      "cardId": 3,
+      "url": "https://cdn.pixabay.com/photo/2025/05/24/12/40/whale-9619752_960_720.png",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 103
+    },
+    {
+      "id": 6,
+      "type": "posts",
+      "cardId": 4,
+      "url": "https://cdn.pixabay.com/photo/2025/04/18/08/05/girl-8703774_960_720.png",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 101
+    },
+    {
+      "id": 7,
+      "type": "posts",
+      "cardId": 5,
+      "url": "https://cdn.pixabay.com/photo/2025/05/11/11/44/tulips-9592711_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 102
+    },
+    {
+      "id": 8,
+      "type": "posts",
+      "cardId": 6,
+      "url": "https://cdn.pixabay.com/photo/2025/05/11/11/44/tulips-9592711_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 103
+    },
+    {
+      "id": 10,
+      "type": "posts",
+      "cardId": 8,
+      "url": "https://cdn.pixabay.com/photo/2023/12/21/13/49/ferris-wheel-8461874_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 102
+    },
+    {
+      "id": 11,
+      "type": "posts",
+      "cardId": 9,
+      "url": "https://cdn.pixabay.com/photo/2022/10/23/17/19/leaves-7541743_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 103
+    },
+    {
+      "id": 12,
+      "type": "comments",
+      "cardId": 1,
+      "url": "https://cdn.pixabay.com/photo/2022/11/27/01/47/boat-7618814_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 102
+    },
+    {
+      "id": 15,
+      "type": "comments",
+      "cardId": 4,
+      "url": "https://cdn.pixabay.com/photo/2025/03/16/06/16/mountains-9473304_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 101
+    },
+    {
+      "id": 16,
+      "type": "comments",
+      "cardId": 5,
+      "url": "https://cdn.pixabay.com/photo/2025/05/13/07/47/train-9596810_960_720.jpg",
+      "createdAt": "2025-06-15T20:08:27.234Z",
+      "updatedAt": "2025-06-15T20:08:27.234Z",
+      "userId": 103
+    },
+    {
+      "type": "posts",
+      "cardId": 11,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:08:56.929Z",
+      "updatedAt": "2025-06-15T20:08:56.929Z",
+      "id": 18
+    },
+    {
+      "type": "posts",
+      "cardId": 12,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:08:59.183Z",
+      "updatedAt": "2025-06-15T20:08:59.183Z",
+      "id": 19
+    },
+    {
+      "type": "posts",
+      "cardId": 19,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:25:50.757Z",
+      "updatedAt": "2025-06-15T20:25:50.757Z",
+      "id": 20
+    },
+    {
+      "type": "posts",
+      "cardId": 21,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:34:46.306Z",
+      "updatedAt": "2025-06-15T20:34:46.306Z",
+      "id": 21
+    },
+    {
+      "type": "comments",
+      "cardId": 9,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:53:37.102Z",
+      "updatedAt": "2025-06-15T20:53:37.102Z",
+      "id": 22
+    },
+    {
+      "type": "comments",
+      "cardId": 9,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:56:07.193Z",
+      "updatedAt": "2025-06-15T20:56:07.193Z",
+      "id": 23
+    },
+    {
+      "type": "comments",
+      "cardId": 10,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T20:56:45.238Z",
+      "updatedAt": "2025-06-15T20:56:45.238Z",
+      "id": 24
+    },
+    {
+      "type": "posts",
+      "cardId": 26,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1733503711060-1df31554390f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "createdAt": "2025-06-15T22:01:08.896Z",
+      "updatedAt": "2025-06-15T22:01:08.896Z",
+      "id": 25
+    },
+    {
+      "type": "posts",
+      "cardId": 10,
+      "userId": 101,
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+      "createdAt": "2025-06-15T23:07:42.621Z",
+      "updatedAt": "2025-06-15T23:07:42.621Z",
+      "id": 26
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "userId": 102,
+      "userName": "Jane Smith",
+      "body": "Great post!",
+      "createdAt": "2025-06-01T11:00:00Z",
+      "updatedAt": "2025-06-01T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "userId": 103,
+      "userName": "Alex Lee",
+      "body": "Thanks for sharing.",
+      "createdAt": "2025-06-01T12:00:00Z",
+      "updatedAt": "2025-06-01T12:00:00Z"
+    },
+    {
+      "id": 3,
+      "postId": 2,
+      "userId": 101,
+      "userName": "John Doe",
+      "body": "Interesting thoughts!",
+      "createdAt": "2025-06-02T13:00:00Z",
+      "updatedAt": "2025-06-02T13:00:00Z"
+    },
+    {
+      "id": 4,
+      "postId": 3,
+      "userId": 101,
+      "userName": "Jane Smith",
+      "body": "Nice vacation pics!",
+      "createdAt": "2025-06-03T16:00:00Z",
+      "updatedAt": "2025-06-03T16:00:00Z"
+    }
+  ]
+}
